@@ -1,0 +1,357 @@
+@charset "UFT-8";
+
+/* main　visual */
+
+.s_mv {
+    background-image: url(../images/plan_back\ .png);
+    text-align: center;
+    background-size: cover;
+}
+
+/* traial training */
+
+.trial_area h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 80px 0;
+}
+
+.s_more_plan {
+    display: flex;
+    justify-content: right;
+}
+
+/* check in */
+.chk_area {
+    display: flex;
+    justify-content: center;
+}
+
+.chk_ttl {
+    margin: auto 80px;
+}
+
+.chk_ttl h3 {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.chk_ttl p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+
+/* counseling */
+.talk_area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 50px 0;
+}
+
+.talk_ttl {
+    margin: auto 80px auto 0;
+}
+
+.talk_ttl h3 {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.talk_ttl p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/* inbody */
+.inbody_area {
+    display: flex;
+    justify-content: center;
+}
+
+.inbody_ttl {
+    margin: auto 0px auto 80px;
+}
+
+.inbody_ttl h3 {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.inbody_ttl p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/* training */
+.tra_area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 50px 0;
+}
+
+.tra_ttl {
+    margin: auto 80px;
+}
+
+.tra_ttl h3 {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.tra_ttl p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/* life planning */
+.life_area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.life_ttl {
+    margin: auto 0px auto 80px;
+}
+
+.life_ttl h3 {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.life_ttl p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/* more plan arrow */
+
+.s_more_plan h3 {
+    font-size: 24px;
+    font-family: "Headland One", serif;
+    margin-right: 35px;
+  }
+  
+  .service_arrow {
+    width: 280px;
+    height: 8px;
+    border-bottom: 2px solid #00609C;
+    border-right: 2px solid #00609C;
+    transform: skew(45deg);
+    margin: 15px 35px 15px 0;
+  }
+
+  .s_more_plan:hover {
+    color: #00609C;
+    text-decoration: underline;
+  }
+
+/* corporate idea　are */
+
+.idea_area {
+    text-align: center;
+}
+
+.idea_tra {
+    margin: 50px 0 25px;
+}
+
+.idea_ttl {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+.idea_txt {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.idea_txt .cross {
+    margin: auto 25px;
+    font-size: 48px;
+    color: #00609C;
+}
+
+.idea_area p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+.trial_area h2 {
+    font-size: 20px;
+    margin: 25px;
+}
+
+.chk_area {
+    display: block;
+    text-align: center;
+}
+
+.chk {
+    width: 80%;
+}
+
+.chk_ttl {
+    margin: 25px;
+    text-align: left;
+}
+
+.chk_ttl h3 {
+    font-size: 16px;
+}
+
+.chk_ttl p {
+    font-size: 12px;
+}
+
+.chk_area {
+    display: block;
+    text-align: center;
+}
+
+.talk {
+    width: 80%;
+}
+
+.talk_ttl {
+    margin: 25px;
+    text-align: left;
+}
+
+.talk_ttl h3 {
+    font-size: 16px;
+}
+
+.talk_ttl p {
+    font-size: 12px;
+}
+
+.talk_area {
+    display: block;
+    text-align: center;
+}
+
+
+.inbody {
+    width: 80%;
+}
+
+.inbody_ttl {
+    margin: 25px;
+    text-align: left;
+}
+
+.inbody_ttl h3 {
+    font-size: 16px;
+}
+
+.inbody_ttl p {
+    font-size: 12px;
+}
+
+.inbody_ttl p br {
+    display: none;
+}
+
+.inbody_area {
+    display: block;
+    text-align: center;
+}
+
+.tra {
+    width: 80%;
+}
+
+.tra_ttl {
+    margin: 25px;
+    text-align: left;
+}
+
+.tra_ttl h3 {
+    font-size: 16px;
+}
+
+.tra_ttl p {
+    font-size: 12px;
+}
+
+.tra_ttl p br {
+    display: none;
+}
+
+.tra_area {
+    display: block;
+    text-align: center;
+}
+
+.life {
+    width: 80%;
+}
+
+.life_ttl {
+    margin: 25px;
+    text-align: left;
+}
+
+.life_ttl h3 {
+    font-size: 16px;
+}
+
+.life_ttl p {
+    font-size: 12px;
+}
+
+.life_ttl p br {
+    display: none;
+}
+
+.life_area {
+    display: block;
+    text-align: center;
+}
+
+/* more plan arrow */
+
+.s_more_plan h3{
+    font-size: 14px;
+    margin-right: 25px;
+    line-height: 3;
+}
+
+.service_arrow{
+    width: 170px;
+}
+
+.idea_tra {
+    width: 80%;
+    margin: 25px;
+}
+
+.idea_ttl {
+    font-size: 16px;
+}
+
+.idea_txt {
+    flex-direction: column;
+    font-size:  14px;
+}
+
+.idea_txt .cross{
+    font-size: 20px;
+}
+
+.idea_area p {
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 0 60px;
+}
+}

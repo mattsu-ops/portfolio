@@ -1,0 +1,109 @@
+@charset "UFT-8";
+
+.map_mv {
+    background-image: url(../images/access_back\ .png);
+    text-align: center;
+    background-size: cover;
+}
+
+.shop {
+    text-align: center;
+    font-size: 24px;
+}
+
+.shop .shop_time h2 {
+    font-size: 32px;
+    margin: 60px 0 10px;
+}
+
+.shop .shop_time h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.shop .shop_time p {
+    font-size: 16px;
+}
+
+.map_wrap {
+    margin: 25px 0;
+}
+
+.map iframe {
+    width: 80%;
+}
+
+.add h3 {
+    font-size: 20px;
+}
+
+.add p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.access h3 {
+    font-size: 20px;
+}
+
+.access p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.tell h3 {
+    font-size: 20px;
+}
+
+.tell p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+.shop .shop_time h2 {
+    font-size: 20px;
+    margin: 25px 0 5px;
+}
+
+.shop .shop_time h3 {
+    font-size: 16px;
+}
+
+.shop .shop_time p {
+    font-size: 14px;
+}
+
+.map iframe {
+    aspect-ratio: 16 / 9;
+    width: 90%;
+    height: auto;
+}
+
+.add h3 {
+    font-size: 16px;
+}
+
+.add p {
+    font-size: 12px;
+}
+
+.access h3 {
+    font-size: 16px;
+}
+
+.access p {
+    font-size: 12px;
+}
+
+.tell h3 {
+    font-size: 16px;
+}
+
+.tell p {
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+}
